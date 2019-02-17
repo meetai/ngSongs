@@ -7,7 +7,7 @@
     "start": "node server.js",
     "lint": "tslint \"src/**/*.ts\"",
     "gh-deploy": "ng build --prod && npx angular-cli-ghpages",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot --prod"
   },
   "repository": {
     "type": "git",
